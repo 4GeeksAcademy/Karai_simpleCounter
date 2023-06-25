@@ -1,0 +1,50 @@
+body {
+    background-image: url('/workspaces/Karai_simpleCounter/src/img/fondo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inputsTimer{
+    width: 150px;
+    margin: 2px;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border: solid;
+    border-color: black;
+    margin-bottom: 20px;
+}
+.inputsTimer::placeholder{
+    color: black;
+}
+.centeringdivs{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.centerininputs{
+    justify-content: center;
+    text-align: center;
+}
+.divbottombtn{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.bottombtn{
+    margin: auto;
+    margin-top: 3px;
+    width: 150px;
+}
+.timeControlBtn{
+    width: 300px;
+    margin: auto;
+    margin-top: 3px;
+}
+.divTimerControlBtn{
+    flex-direction: column;
+}
